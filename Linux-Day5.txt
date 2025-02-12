@@ -1,0 +1,116 @@
+1. Introduction Linux  
+ 
+areas  ----> commands ----> Files ---> softwares ---> servers
+
+open source ---> source code everyone can view edit and modify and enhance
+
+1984 and 1991 Linux torvlda
+
+Linux Principles:
+
+Everything is a file
+small single-purpose program
+Ability to chain programs together for complex operations
+avoid captive user interface
+configuration stored on text file
+
+why Linux?
+open source
+community support
+support wide hardware
+customization
+Automation
+security
+
+
+Arch ---> HArdware  --> kernel ----> shell ----> commands, app, cd
+
+redhat
+centos
+ubuntu
+
+RPM ---> RHEL,Centos,Oracle Linux
+Debian ---> ubuntu, kalai
+
+
+
+
+
+
+
+drwxr-xr-x. 2 demouser1 demouser1 6 Jul 30 12:10 test
+
+Read - 4
+Write - 2
+Exec - 1
+
+drwxr - Users -- 4+2+1 ----> 7 full permission
+
+xr  ---> group -- 2+1   ----> 3 write and excute
+
+X  ---> others ---> 1    ----> Excutablb
+
+
+rwx-rwx-rwx ---> 777
+
+
+Tasks:
+1. Crate Ec2 server with default configurations
+    (8GB,t2micro instance type)
+    SSH via putty
+    It should only access from your network only
+    Instance IP should not change even if you stop/start the server, IP should be static.
+2. Create User/Groups
+    create user1,user2
+    create group1,group2
+    create folde1,folder2
+    user1 ---> only read and write access for foler1
+    user2 ---> only executable permission for folder2
+    user1 assigns root access
+    assign folder1 ownership to user1
+    create 10 files under user1 and copy those files to user2
+3. Practice the filter commands
+    show the last and first 10 lines of the file
+    replace the specific string on the file
+    Find a specific string on the file
+4. Install and access httpd application in front of the internet
+    
+    
+
+icic0006031
+
+MWIN 0960618
+
+1018300812
+
+
+ec2 server (Hosted application1.com)  <---- DNS server ( application1.com -- ec2 server IP address) <---- Public User (from the internet application1.com)
+
+
+nslookup application2.com
+
+
+dns server 
+dns IP
+ec2 server
+SG
+Ec2 IP
+
+
+18.206.120.16   - old IP 
+
+54.89.215.80   - new IP
+
+18.213.52.85  --- Elastic IP
+
+
+
+
+
+
+
+
+
+
+
+
